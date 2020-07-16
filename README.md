@@ -1,11 +1,13 @@
 # Credit Card Fraud Detection - Machine Learning (MATLAB and Python)
 
-## Description
+## Description 🖋️
 
 This repository demonstrates the usage of a Support Vector Machine and a Multi-Layer Perceptron Model to detect credit card fraud.
 
-### Dataset:
-You can find the dataset [here](https://www.kaggle.com/mlg-ulb/creditcardfraud).
+### Original Dataset:
+You can find the original dataset [here](https://www.kaggle.com/mlg-ulb/creditcardfraud).
+
+
 
 ### Implementation Details:
 
@@ -21,3 +23,11 @@ You will also find two files containing the Bayesian Hyperparameter Optimisation
 
 -	`SVM_Model_Optimisation.m` for the SVM model.
 -	`MLP_Model_Optimisation.m` for the MLP model.
+
+**Clean dataset**:
+
+-	`clean_data.csv` is used for both models (with feature selection/under sampling implementations made in `processing.py`).
+
+We include a python file containing the pre-processing stage of the analysis, where we explore the data. The file also includes an assessment of two data balancing techniques: SMOTE and Near Miss. 
+
+-	`processing.py` for the pre-processing file.
